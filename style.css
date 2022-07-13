@@ -1,0 +1,208 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;    
+}
+
+.headd .logo img
+{   
+    float :left;
+}
+.headd .navigationbar 
+{
+    list-style: none;
+    margin-left: 5px;
+    float: right;
+}
+
+.headd .navigationbar .navbar li
+{
+    list-style: none;
+    margin-top: 10%;
+    margin-left: 6px;
+    margin-right: 6px;
+    float: left;
+    
+}
+
+.clear
+{
+    clear:both;
+}
+
+.banner 
+{
+    background-image: url(banner.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    
+}
+
+.heading
+{
+    padding-top: 3%;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.heading2
+{
+    padding-top: 3%;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+
+.text
+{
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text2
+{
+    text-align: left;
+    padding-top: 2px;
+    padding-right: 10%;
+    padding-bottom: 4px;
+}
+
+
+.b a
+{
+    margin-top: 10px;
+    border:3px solid seagreen;
+    display:block;          
+    height:fit-content;
+    width:fit-content;
+    background-color: seagreen;
+    text-decoration-color: black;
+}
+
+.line hr
+{
+    margin-top: 20px;
+    border-top: 1px solid rgb(236, 234, 234);
+    margin-bottom: 20px;
+}
+
+.service
+{
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.service .class1
+{
+    position:relative;
+    width: 15%;
+    margin-left: 7%;
+    float: left;
+}
+
+.service .class1 p
+{
+    width: auto;
+    text-align: left;
+}
+
+.about
+{
+    width: 100%;
+    float: left;
+}
+.about .about1
+{
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 10%;
+    text-align: left;
+    float:left;
+}
+
+.info
+{
+    padding-top: 7%;
+}
+
+.about .about2
+{
+    max-width: 40%;
+    padding-right: 30%;
+    float:right;
+}
+
+.data
+{
+    padding-top: 10%;
+}
+
+.c a
+{
+    margin-top: 50px;
+    border: 1px solid black;
+    display:block;          
+    height:fit-content;
+    width:fit-content;
+}
+
+.d a
+{
+    margin-top: 30px;
+    border:3px solid yellow;
+    display:block;          
+    height:fit-content;
+    width:fit-content;
+    background-color: yellow;
+    text-decoration-color: black;
+}
+
+.bannerq
+{
+    background-image: url(qurestions-banner.jpg);
+    background-position: left;
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    
+}
+
+.columns{
+    
+}
+ 
+.list 
+{
+    padding-top: 20px white;
+    display: grid;
+    grid-template-columns: 180px 180px;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    border: 1px solid rgb(0, 0, 0);
+    list-style-type: none;
+    float: left;
+  }
+  
+  .list li {
+    width: 180px;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    float: left;
+  }
+  
+  .list li span {
+    display: block;
+    padding: 6px 9px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .list li span.ID{
+    font-weight: bold;
+    text-align: center;
+  }
